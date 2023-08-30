@@ -1,2 +1,2 @@
 # Gender-and-Age-Recognition-System-from-Speech
-Terminal Project to get a Telematics Engineering title
+## A project whose objective is to recognize the age range and the gender of a person based on their speech.
