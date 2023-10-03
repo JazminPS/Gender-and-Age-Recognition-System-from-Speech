@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Degradado de azul suave a morado pastel */
+    background: linear-gradient(to bottom right, #159957, #155799);
+    color: #2c2c2c;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Color blanco sólido para el contenedor */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+
+audio:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
