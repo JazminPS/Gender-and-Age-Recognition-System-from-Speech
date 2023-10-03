@@ -15,25 +15,30 @@ El objetivo principal es procesar señales de audio para que sean aptas para mod
 
 ## Notebook de Procesamiento de Audio
 
-La notebook incluida en este repositorio ilustra de manera detallada cada paso del procesamiento de audio, permitiendo una visualización clara de la transformación de la señal en cada etapa. Es una excelente herramienta educativa y punto de referencia para entender a profundidad las operaciones realizadas.
+La notebook incluida en este repositorio ilustra cada paso del procesamiento de audio, permitiendo una visualización clara de la transformación de la señal en cada etapa. 
 
 Puedes [hacer clic aquí](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/Preprocesamiento.ipynb) para acceder a la notebook.
 
-## Cómo Utilizar el Módulo
+## Cómo Utilizar el Módulo de Preprocesamiento
 
 El código de procesamiento ha sido adaptado para funcionar como un módulo independiente, facilitando su implementación:
 
-1Para procesar un archivo de audio, sigue estos pasos:
+Para procesar un archivo de audio, sigue estos pasos:
 
 1. Importa el módulo en tu script o notebook de Python:
+
    ```import preprocesamiento_audio```
 
 2. Llama a la función procesar_audio con el nombre de tu archivo de audio:
+
     ```nombre_del_audio = "nombre_del_archivo.mp3"```
+
     ```preprocesamiento_audio.procesar_audio(nombre_del_audio)```
 
-3. Tras ejecutar la función, se generarán tres archivos:
+3. Tras ejecutar la función, se generarán cinco archivos:
 
+>**nombre_del_archvio_con_reduccion_de_ruido.mp3:** Audio preprocesado hasta la reducción de ruido en formato MP3.
+>**nombre_del_archvio_sin_silencios_largos.mp3:** Audio preprocesado hasta la eliminación de silencios largos en formato MP3.
 >**nombre_del_archvio_normalizado.mp3:** Audio preprocesado hasta la normalización en formato MP3.
 >**nombre_del_archvio_con_preenfasis.mp3:** Audio segmentado con un filtro de preénfasis en formato NumPy.
 >**nombre_del_archvio_sin_preenfasis.mp3:** Audio segmentado sin un filtro de preénfasis en formato NumPy.
