@@ -21,7 +21,7 @@ Puedes [hacer clic aquí](https://github.com/JazminPS/Gender-and-Age-Recognition
 
 ## Cómo Utilizar el Módulo de Preprocesamiento
 
-El código de procesamiento ha sido adaptado para funcionar como un módulo independiente, facilitando su implementación:
+El código de procesamiento ha sido adaptado para funcionar como un [módulo](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/preprocesamiento_audio.py) independiente, facilitando su implementación:
 
 Para procesar un archivo de audio, sigue estos pasos:
 
