@@ -6,8 +6,8 @@ Este proyecto aborda el procesamiento y análisis de señales de audio para reco
 ## Índice
 - [Descripción General](#descripción-general)
 - [Notebook de Procesamiento de Audio](#notebook-de-procesamiento-de-audio)
-- [Cómo Utilizar el Módulo](#cómo-utilizar-el-módulo)
-- [Ejemplos de Salida de Audio](#ejemplos-de-salida-de-audio)
+- [Cómo Utilizar el Módulo](#cómo-utilizar-el-módulo-de-preprocesamiento)
+- [Ejemplos de Salida de Audio](#ejemplos-de-salida-de-audio-preprocesados)
 
 ## Descripción General
 
