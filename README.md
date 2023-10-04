@@ -8,6 +8,8 @@ Este proyecto aborda el procesamiento y análisis de señales de audio para reco
 - [Notebook de Procesamiento de Audio](#notebook-de-procesamiento-de-audio)
 - [Cómo Utilizar el Módulo de Preprocesamiento](#cómo-utilizar-el-módulo-de-preprocesamiento)
 - [Ejemplos de Salida de Audio Preprocesados](#ejemplos-de-salida-de-audio-preprocesados)
+- [Cómo Utilizar el Módulo de Extracción de Características](#cómo-utilizar-el-módulo-de-extracción-de-características)
+- [Notebooks de Extracción de Características](#notebooks-de-extracción-de-características)
 
 ## Descripción General
 
@@ -45,3 +47,35 @@ Para procesar un archivo de audio, sigue estos pasos:
 
 ## Ejemplos de Salida de Audio Preprocesados
 Para una comprensión más clara del procesamiento, hemos creado un [sitio web](https://jazminps.github.io/Gender-and-Age-Recognition-System-from-Speech/) que proporciona ejemplos auditivos del audio antes y después del procesamiento.
+
+
+## Cómo Utilizar el Módulo de Extracción de Características
+
+Los códigos de extracción de características han sido adaptados para funcionar como un [módulo](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/extraccion_de_caracteristicas.py) independiente, facilitando su implementación:
+
+Para utilizarlo, sigue estos pasos:
+
+1. Importa el módulo en tu script o notebook de Python:
+
+   ```import extraccion_de_caracteristicas```
+
+2. Llama a la función extraer_caracterisiticas con el nombre de tu archivo de audio:
+
+    ```nombre_del_archivo = "nombre_del_archivo_que_contiene_los_frames.npy" ```
+
+    ```extraccion_de_caracteristicas.extraer_caracterisiticas(nombre_del_archivo)```
+
+3. Tras ejecutar la función, se generarán cuatro archivos:
+
+    - **nombre_del_archivo_que_contiene_los_frames_lpc.npy:** Archivo de salida con coeficientes LPC.
+    - **nombre_del_archivo_que_contiene_los_frames_lpcc.npy:** Archivo de salida con coeficientes LPCC.
+    - **nombre_del_archivo_que_contiene_los_frames_mfcc.npy:** Archivo de salida con coeficientes MFCC.
+    - **nombre_del_archivo_que_contiene_los_frames_plp.npy:** Archivo de salida con coeficientes PLP.
+
+## Notebooks de Extracción de Características
+En este repositorio, también se incluyen notebooks que ilustran la extracción de distintos coeficientes de las señales de audio, como LPC, LPCC, MFCC y PLP.
+
+[Notebook de Coeficientes LPC](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/LPC.ipynb)
+[Notebook de Coeficientes LPCC](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/LPCC.ipynb)
+[Notebook de Coeficientes MFCC](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/MFCC.ipynb)
+[Notebook de Coeficientes PLP](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/PLP.ipynb)
