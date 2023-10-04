@@ -11,7 +11,7 @@ Este proyecto aborda el procesamiento y análisis de señales de audio para reco
 
 ## Descripción General
 
-El objetivo principal es procesar señales de audio para que sean aptas para modelos de reconocimiento. A través de este repositorio, se proporciona una notebook detallada que ilustra cada paso del procesamiento y un módulo Python para una integración fácil y automatizada en aplicaciones y sistemas.
+El objetivo principal es procesar señales de audio para que sean aptas para modelos de reconocimiento. A través de este repositorio, se proporciona una notebook detallada que ilustra cada paso del procesamiento y un módulo Python.
 
 ## Notebook de Procesamiento de Audio
 
@@ -33,7 +33,7 @@ Para procesar un archivo de audio, sigue estos pasos:
 
     ```nombre_del_audio = "nombre_del_archivo.mp3"```
 
-    ```preprocesamiento_audio.procesar_audio(nombre_del_audio)```
+    preprocesamiento_audio.procesar_audio(nombre_del_audio)```
 
 3. Tras ejecutar la función, se generarán cinco archivos:
 
@@ -43,5 +43,5 @@ Para procesar un archivo de audio, sigue estos pasos:
 >**nombre_del_archvio_con_preenfasis.mp3:** Audio segmentado con un filtro de preénfasis en formato NumPy.
 >**nombre_del_archvio_sin_preenfasis.mp3:** Audio segmentado sin un filtro de preénfasis en formato NumPy.
 
-## Ejemplos de Salida de Audio
+## Ejemplos de Salida de Audio Preprocesadas
 Para una comprensión más clara del procesamiento, hemos creado un [sitio web](https://jazminps.github.io/Gender-and-Age-Recognition-System-from-Speech/) que proporciona ejemplos auditivos del audio antes y después del procesamiento.
