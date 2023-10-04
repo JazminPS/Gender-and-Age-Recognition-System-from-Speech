@@ -75,7 +75,7 @@ Para utilizarlo, sigue estos pasos:
 ## Notebooks de Extracción de Características
 En este repositorio, también se incluyen notebooks que ilustran la extracción de distintos coeficientes de las señales de audio, como LPC, LPCC, MFCC y PLP.
 
-[Notebook de Coeficientes LPC](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/LPC.ipynb)
-[Notebook de Coeficientes LPCC](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/LPCC.ipynb)
-[Notebook de Coeficientes MFCC](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/MFCC.ipynb)
-[Notebook de Coeficientes PLP](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/PLP.ipynb)
+1. [Notebook de Coeficientes LPC](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/LPC.ipynb)
+2. [Notebook de Coeficientes LPCC](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/LPCC.ipynb)
+3. [Notebook de Coeficientes MFCC](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/MFCC.ipynb)
+4. [Notebook de Coeficientes PLP](https://github.com/JazminPS/Gender-and-Age-Recognition-System-from-Speech/blob/main/PLP.ipynb)
