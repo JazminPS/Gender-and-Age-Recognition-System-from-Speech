@@ -11,7 +11,7 @@ Este proyecto aborda el procesamiento y análisis de señales de audio para reco
 
 ## Descripción General
 
-El objetivo principal es procesar señales de audio para que sean aptas para modelos de reconocimiento. A través de este repositorio, se proporciona una notebook detallada que ilustra cada paso del procesamiento y un módulo Python.
+El objetivo principal es procesar señales de audio para que sean aptas para modelos de reconocimiento. A través de este repositorio, se proporciona una notebook que ilustra cada paso del procesamiento y un módulo Python.
 
 ## Notebook de Procesamiento de Audio
 
@@ -32,15 +32,16 @@ Para procesar un archivo de audio, sigue estos pasos:
 2. Llama a la función procesar_audio con el nombre de tu archivo de audio:
 
     ```nombre_del_audio = "nombre_del_archivo.mp3" ```
+
     ```preprocesamiento_audio.procesar_audio(nombre_del_audio)```
 
 3. Tras ejecutar la función, se generarán cinco archivos:
 
->**nombre_del_archvio_con_reduccion_de_ruido.mp3:** Audio preprocesado hasta la reducción de ruido en formato MP3.
->**nombre_del_archvio_sin_silencios_largos.mp3:** Audio preprocesado hasta la eliminación de silencios largos en formato MP3.
->**nombre_del_archvio_normalizado.mp3:** Audio preprocesado hasta la normalización en formato MP3.
->**nombre_del_archvio_con_preenfasis.mp3:** Audio segmentado con un filtro de preénfasis en formato NumPy.
->**nombre_del_archvio_sin_preenfasis.mp3:** Audio segmentado sin un filtro de preénfasis en formato NumPy.
+1. **nombre_del_archvio_con_reduccion_de_ruido.mp3:** Audio preprocesado hasta la reducción de ruido en formato MP3.
+2. **nombre_del_archvio_sin_silencios_largos.mp3:** Audio preprocesado hasta la eliminación de silencios largos en formato MP3.
+3. **nombre_del_archvio_normalizado.mp3:** Audio preprocesado hasta la normalización en formato MP3.
+4. **nombre_del_archvio_con_preenfasis.mp3:** Audio segmentado con un filtro de preénfasis en formato NumPy.
+5. **nombre_del_archvio_sin_preenfasis.mp3:** Audio segmentado sin un filtro de preénfasis en formato NumPy.
 
 ## Ejemplos de Salida de Audio Preprocesadas
 Para una comprensión más clara del procesamiento, hemos creado un [sitio web](https://jazminps.github.io/Gender-and-Age-Recognition-System-from-Speech/) que proporciona ejemplos auditivos del audio antes y después del procesamiento.
