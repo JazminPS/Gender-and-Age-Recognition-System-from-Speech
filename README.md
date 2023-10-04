@@ -31,9 +31,8 @@ Para procesar un archivo de audio, sigue estos pasos:
 
 2. Llama a la función procesar_audio con el nombre de tu archivo de audio:
 
-    ```nombre_del_audio = "nombre_del_archivo.mp3"```
-
-    preprocesamiento_audio.procesar_audio(nombre_del_audio)```
+    ```nombre_del_audio = "nombre_del_archivo.mp3" ```
+    ```preprocesamiento_audio.procesar_audio(nombre_del_audio)```
 
 3. Tras ejecutar la función, se generarán cinco archivos:
 
