@@ -6,8 +6,8 @@ Este proyecto aborda el procesamiento y análisis de señales de audio para reco
 ## Índice
 - [Descripción General](#descripción-general)
 - [Notebook de Procesamiento de Audio](#notebook-de-procesamiento-de-audio)
-- [Cómo Utilizar el Módulo](#cómo-utilizar-el-módulo-de-preprocesamiento)
-- [Ejemplos de Salida de Audio](#ejemplos-de-salida-de-audio-preprocesados)
+- [Cómo Utilizar el Módulo de Preprocesamiento](#cómo-utilizar-el-módulo-de-preprocesamiento)
+- [Ejemplos de Salida de Audio Preprocesados](#ejemplos-de-salida-de-audio-preprocesados)
 
 ## Descripción General
 
@@ -43,5 +43,5 @@ Para procesar un archivo de audio, sigue estos pasos:
     - **nombre_del_archvio_con_preenfasis.mp3:** Audio segmentado con un filtro de preénfasis en formato NumPy.
     - **nombre_del_archvio_sin_preenfasis.mp3:** Audio segmentado sin un filtro de preénfasis en formato NumPy.
 
-## Ejemplos de Salida de Audio Preprocesadas
+## Ejemplos de Salida de Audio Preprocesados
 Para una comprensión más clara del procesamiento, hemos creado un [sitio web](https://jazminps.github.io/Gender-and-Age-Recognition-System-from-Speech/) que proporciona ejemplos auditivos del audio antes y después del procesamiento.
