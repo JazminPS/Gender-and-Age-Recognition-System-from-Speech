@@ -210,10 +210,6 @@ def procesar_audio(nombre_del_archivo_a_preprocesar):
     salida_del_audio_normalizado =  os.path.splitext(nombre_del_archivo_a_preprocesar)[0] + '_normalizado.mp3'
     convertir_wav_a_mp3(buffer_wav_de_salida, salida_del_audio_normalizado)
 
-    #Eliminar archivos intermedios
-    os.remove(ruta_de_archivo_de_salida_ruido)  # Elimina el archivo con el ruido reducido
-    os.remove(ruta_de_salida_de_archivo_silencios)  # Elimina el archivo sin silencios
-
 
     ##################################################################################################################
     ####################### Preenfasis, segmentación y ventaneo ##################################################################
@@ -231,4 +227,4 @@ def procesar_audio(nombre_del_archivo_a_preprocesar):
     ruta_de_archivo_de_salida_segmentado_sin_preenfasis = os.path.splitext(nombre_del_archivo_a_preprocesar)[0] + '_segmentado_sin_preenfasis.npy'
     guardar_frames_en_un_archivo(frames_sin_preenfasis, ruta_de_archivo_de_salida_segmentado_sin_preenfasis)
 
-    return ruta_de_archivo_de_salida_ruido, uta_de_salida_de_archivo_silencios, salida_del_audio_normalizado, ruta_de_archivo_de_salida_segmentado_con_preenfasis, ruta_de_archivo_de_salida_segmentado_sin_preenfasis
+    return ruta_de_archivo_de_salida_ruido, ruta_de_salida_de_archivo_silencios, salida_del_audio_normalizado, ruta_de_archivo_de_salida_segmentado_con_preenfasis, ruta_de_archivo_de_salida_segmentado_sin_preenfasis
